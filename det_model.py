@@ -298,4 +298,7 @@ st.sidebar.markdown(f"**Detectron2 Predictor:** `{'Loaded' if d2_predictor else 
 st.sidebar.markdown(f"**Dimension CNN:** `{'Loaded' if dim_model else 'Not Loaded'}`")
 if not os.path.exists(MODEL_PATH):
     st.sidebar.warning(f"Dimension CNN weights file not found at the specified path.")
+if __name__ == "__main__":
+    main()  # or whatever function runs the Streamlit app
+
 
