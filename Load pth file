@@ -1,0 +1,7 @@
+import gdown
+import os
+
+MODEL_PATH = "model.pth"
+if not os.path.exists(MODEL_PATH):
+    url = "https://drive.google.com/file/d/1VTBDfbg9g8G-hOv2j7dRp-igME5GikSs/view?usp=sharing"
+    gdown.download(url, MODEL_PATH, quiet=False)
