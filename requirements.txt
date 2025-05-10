@@ -1,7 +1,7 @@
 streamlit
-torch
+torch==2.1.0
 torchvision
 opencv-python
 numpy
 Pillow
-detectron2@git+https://github.com/facebookresearch/detectron2.git
+git+https://github.com/facebookresearch/detectron2.git
